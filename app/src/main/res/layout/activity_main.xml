@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/turnText"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="Current turn: O"
+        android:textAlignment="center"
+        android:textSize="60sp" />
+
+    <GridLayout
+        android:id="@+id/TicTacToeGrid"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/turnText"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="3"
+        >
+
+        <com.example.tictactoe.GridButton
+            android:layout_rowWeight="1"
+            android:background="@color/defualtBtnBackground"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="3sp"
+            android:maxHeight="100sp"
+            android:textSize="100sp" />
+        <com.example.tictactoe.GridButton
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/defualtBtnBackground"
+            android:maxHeight="100sp"
+            android:layout_gravity="fill"
+            android:layout_margin="3sp"
+            android:textSize="100sp"/>
+        <com.example.tictactoe.GridButton
+            android:layout_rowWeight="1"
+            android:maxHeight="100sp"
+            android:background="@color/defualtBtnBackground"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="3sp"
+            android:textSize="100sp"/>
+        <com.example.tictactoe.GridButton
+            android:layout_rowWeight="1"
+            android:maxHeight="100sp"
+            android:background="@color/defualtBtnBackground"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="3sp"
+            android:textSize="100sp"/>
+        <com.example.tictactoe.GridButton
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/defualtBtnBackground"
+            android:maxHeight="100sp"
+            android:layout_gravity="fill"
+            android:layout_margin="3sp"
+            android:textSize="100sp"/>
+        <com.example.tictactoe.GridButton
+            android:layout_rowWeight="1"
+            android:maxHeight="100sp"
+            android:background="@color/defualtBtnBackground"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="3sp"
+            android:textSize="100sp"/>
+        <com.example.tictactoe.GridButton
+            android:layout_rowWeight="1"
+            android:maxHeight="100sp"
+            android:background="@color/defualtBtnBackground"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="3sp"
+            android:textSize="100sp"/>
+        <com.example.tictactoe.GridButton
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:maxHeight="100sp"
+            android:background="@color/defualtBtnBackground"
+            android:layout_gravity="fill"
+            android:layout_margin="3sp"
+            android:textSize="100sp"/>
+        <com.example.tictactoe.GridButton
+            android:layout_rowWeight="1"
+            android:maxHeight="100sp"
+            android:background="@color/defualtBtnBackground"
+            android:layout_margin="3sp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:textSize="100sp"/>
+    </GridLayout>
+</RelativeLayout>
